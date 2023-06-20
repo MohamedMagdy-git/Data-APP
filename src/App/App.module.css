@@ -1,0 +1,61 @@
+.Card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.showBtn, .showModalButton {
+    margin-bottom: 10px;
+    border: none;
+    background-color:#ff5724;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.showBtn {
+    background-color:#7788998b;
+}
+.showBtn:hover {
+    background-color:#7788996c;
+}
+.showModalButton:hover{
+    background-color:#ff3c00;
+}
+
+.containerButtonHeader {
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+    display: none;
+}
+.divInput {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.titleData {
+    margin-top: -5px;
+    margin-bottom: 50px;
+    font-size: 17px;
+    font-weight: 500;
+    color: rgba(119, 136, 153, 0.547);
+}
+.bttnText {
+    border: none;
+    background-color: black;
+    color: white;
+}
+

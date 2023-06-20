@@ -1,0 +1,44 @@
+.backDrop {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    opacity: .6;
+    z-index: 10;
+    transition: .3s;
+    transform: translateY(-100%);
+}
+.showBackDrop {
+    transform: translateY(0%);
+}
+
+.overLay {
+    position: fixed;
+    background-color: white;
+    width: 280px;
+    height: 150vh;
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); */
+    top: 0;
+    left: 0;
+    z-index: 110;
+    /* border-radius: 15px; */
+    opacity: 0;
+    visibility: hidden;
+    transform: translateX(-100%);
+    transition: .6s;
+}
+.showOverLay {
+    opacity: 1;
+    visibility: visible;
+    transform: translateX(0%);
+}
+.titleForm {
+    color: #ff5724;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
