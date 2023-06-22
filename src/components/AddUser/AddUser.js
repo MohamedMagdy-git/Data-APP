@@ -34,26 +34,26 @@ const AddUser = ({AddUserHandeler, toggleStateFuncHideForm}) => {
       
             <div style={{marginBottom: "15px"}}>
                     <label style={{marginRight: "12px",marginBottom: "15px"}} htmlFor="name">Name</label>
-                    <input type="text" onChange={inputHandler} name="name" id="name" value={input.name} placeholder="Enter Name Here" className={style.inputData}/>
+                    <input type="text" onChange={inputHandler} name="name" id="name" required value={input.name} placeholder="Enter Name Here" className={style.inputData}/>
             </div>
             
             <div style={{marginBottom: "15px"}}> 
 
                     <label style={{marginRight: "24px"}} htmlFor="age">Age</label>
-                    <input type="text" name="age" id="age" value={input.age} onChange={inputHandler} placeholder="Enter Age Here" className={style.inputData}/>
+                    <input type="text" name="age" id="age" required value={input.age} onChange={inputHandler} placeholder="Enter Age Here" className={style.inputData}/>
             </div>
              
           
             <div style={{marginBottom: "15px"}}>
                 
                 <label style={{marginRight: "10px"}} htmlFor="phone">Phone</label>
-                <input type="text" name="phone" id="phone" value={input.phone} onChange={inputHandler} placeholder="Enter Phone Here" className={style.inputData}/>
+                <input type="text" name="phone" id="phone" required value={input.phone} onChange={inputHandler} placeholder="Enter Phone Here" className={style.inputData}/>
             </div>
 
             <div style={{marginBottom: "15px"}}>
                 
                 <label style={{marginRight: "10px"}} htmlFor="adress">Adress</label>
-                <input type="adress" name="adress" id="adress" value={input.adress} onChange={inputHandler} placeholder="Enter adress Here" className={style.inputData}/>
+                <input type="adress" name="adress" id="adress" required value={input.adress} onChange={inputHandler} placeholder="Enter adress Here" className={style.inputData}/>
             </div>  
 
             <div className={style.gander}>
