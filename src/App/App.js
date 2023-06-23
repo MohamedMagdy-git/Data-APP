@@ -163,7 +163,7 @@ const App = () => {
             </div>
         </div>
         <Model showAndHide = {showModal} hideModelFromBack = {modalShowHandler}>
-            <AddUser AddUserHandeler={AddUserHandeler} toggleStateFuncHideForm = {modalShowHandler}></AddUser>
+            <AddUser AddUserHandeler={AddUserHandeler} ></AddUser>
         </Model>
         
        
