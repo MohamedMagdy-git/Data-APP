@@ -4,7 +4,7 @@ import style from "./AddUser.module.css"
 
 
 
-const AddUser = ({AddUserHandeler, toggleStateFuncHideForm}) => {
+const AddUser = ({AddUserHandeler}) => {
    let [input, setInput] = useState({
     name: "",
     age: "",
@@ -106,7 +106,7 @@ const AddUser = ({AddUserHandeler, toggleStateFuncHideForm}) => {
             </div>    
             
             
-                <button className={style.btnFormSave} onClick={validation}>Save</button>
+                <button className={style.btnFormSave} onClick={()=> validation()}>Save</button>
                 <button className={style.btnFormCancel} type='reset'>Cancel</button>
             
         
