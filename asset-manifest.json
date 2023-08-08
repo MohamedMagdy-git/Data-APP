@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Data-APP/static/css/main.be10c4ff.css",
-    "main.js": "/Data-APP/static/js/main.ed3b8e81.js",
+    "main.js": "/Data-APP/static/js/main.61fffd3b.js",
     "static/js/787.28cb0dcd.chunk.js": "/Data-APP/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Data-APP/index.html",
     "main.be10c4ff.css.map": "/Data-APP/static/css/main.be10c4ff.css.map",
-    "main.ed3b8e81.js.map": "/Data-APP/static/js/main.ed3b8e81.js.map",
+    "main.61fffd3b.js.map": "/Data-APP/static/js/main.61fffd3b.js.map",
     "787.28cb0dcd.chunk.js.map": "/Data-APP/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.be10c4ff.css",
-    "static/js/main.ed3b8e81.js"
+    "static/js/main.61fffd3b.js"
   ]
 }
